@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="top-banner">
+        <div class="logo">
+            <img src="logo.png" alt="Orskin Logo">
+        </div>
+    </header>
+
+    <div class="container">
+        <form class="main-form">
+
+            <section class="form-section">
+                <h3>CONSULTATION FORM</h3>
+
+                <div class="form-group">
+                    <input type="text" placeholder="Full Name" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" placeholder="Address" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" placeholder="Mobile No." required>
+                </div>
+
+                <div class="form-group">
+                    <input type="email" placeholder="Email Address" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" placeholder="How did you hear about us?">
+                </div>
+            </section>
+
+            <section class="lifestyle">
+                <h3>LIFESTYLE</h3>
+
+                <div class="question inline">
+                    <label>Do you drink enough water (minimum 2L per day)?</label>
+                    <div class="options">
+                        <label><input type="checkbox" name="water" value="yes"> Yes</label>
+                        <label><input type="checkbox" name="water" value="no"> No</label>
+                    </div>
+                </div>
+
+                <div class="question inline">
+                    <label>Do you take any supplements? If yes, what kind?</label>
+                    <div class="options">
+                        <label><input type="checkbox" name="supplements" value="yes"> Yes</label>
+                        <label><input type="checkbox" name="supplements" value="no"> No</label>
+                    </div>
+                    <input type="text" class="text-input" name="supplement_details">
+                </div>
+
+                <div class="question inline">
+                    <label>Do you drink or smoke?</label>
+                    <div class="options">
+                        <label><input type="checkbox" name="smoke" value="yes"> Yes</label>
+                        <label><input type="checkbox" name="smoke" value="no"> No</label>
+                    </div>
+                </div>
+
+                <div class="question inline">
+                    <label>How is your diet?</label>
+                    <div class="options">
+                        <label><input type="checkbox" name="diet" value="dairy"> Dairy</label>
+                        <label><input type="checkbox" name="diet" value="gluten"> Gluten</label>
+                        <label><input type="checkbox" name="diet" value="carbs"> Carbs</label>
+                        <label><input type="checkbox" name="diet" value="oils"> Oils</label>
+                    </div>
+                </div>
+
+                <div class="question inline">
+                    <label>Do you sunbathe? If yes, how often?</label>
+                    <div class="options">
+                        <label><input type="checkbox" name="sunbathe" value="yes"> Yes</label>
+                        <label><input type="checkbox" name="sunbathe" value="no"> No</label>
+                    </div>
+                    <input type="text" class="text-input" name="sunbathe_details">
+                </div>
+            </section>
+
+            <section class="skincare">
+                <h3>SKINCARE</h3>
+
+                <div class="question triple-input">
+                    <div class="form-group">
+                        <label>Date of your last facial</label>
+                        <input type="text" class="text-input" name="last_facial">
+                    </div>
+                    <div class="form-group">
+                        <label>Date of your last laser</label>
+                        <input type="text" class="text-input" name="last_laser">
+                    </div>
+                    <div class="form-group">
+                        <label>Date of your last peel</label>
+                        <input type="text" class="text-input" name="last_peel">
+                    </div>
+                </div>
+
+                <div class="question inline">
+                    <label>Have you done any botox in the past 2 weeks?</label>
+                    <div class="options">
+                        <label><input type="checkbox" name="botox" value="yes"> Yes</label>
+                        <label><input type="checkbox" name="botox" value="no"> No</label>
+                    </div>
+                </div>
+
+                <div class="question inline">
+                    <label>Have you done any fillers in the past 2 weeks?</label>
+                    <div class="options">
+                        <label><input type="checkbox" name="fillers" value="yes"> Yes</label>
+                        <label><input type="checkbox" name="fillers" value="no"> No</label>
+                    </div>
+                </div>
+
+                <div class="question inline">
+                    <label>Are you experiencing any pain / tension in the jaw area? TMJ?</label>
+                    <div class="options">
+                        <label><input type="checkbox" name="tmj" value="yes"> Yes</label>
+                        <label><input type="checkbox" name="tmj" value="no"> No</label>
+                    </div>
+                </div>
+
+                <div class="question inline">
+                    <label>Have you done any surgery or threads in the last few months?</label>
+                    <div class="options">
+                        <label><input type="checkbox" name="surgery" value="yes"> Yes</label>
+                        <label><input type="checkbox" name="surgery" value="no"> No</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <label>How is your skin feeling after cleansing?</label>
+                    <input type="text" class="text-input" name="skin_feel">
+                </div>
+                
+                <div class="question">
+                    <label>What kind of skincare brands do you currently use? (SPF, etc.)</label>
+                    <input type="text" class="text-input" name="brands">
+                </div>
+
+                <div class="question inline">
+                    <label>Do you have any skin allergic reactions?</label>
+                    <div class="options">
+                        <label><input type="checkbox" name="allergic" value="yes"> Yes</label>
+                        <label><input type="checkbox" name="allergic" value="no"> No</label>
+                    </div>
+                </div>
+
+                <div class="question">
+                    <label>What's your main skin concern?</label>
+                    <input type="text" class="text-input" name="skin_concern">
+                </div>
+            </section>
+
+        </form>
+    </div>
+</body>
+
+</html>

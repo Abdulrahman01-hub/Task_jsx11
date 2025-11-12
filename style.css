@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(180deg, #f7f9f9 0%, #e8f3f2 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-banner {
+  width: 100%;
+  background-color: #9cd9d7;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid #8dcac8;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+
+
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  width: 75px;
+  height: auto;
+}
+
+.logo h2 {
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  color: #333;
+  margin-top: 5px;
+}
+
+
+.container {
+  width: 100%;
+  max-width: 1100px;
+  background: transparent;
+  padding: 0 40px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-form {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.form-section h3,
+.lifestyle h3 {
+  text-align: center;
+  color: #3a9087;
+  font-weight: 600;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-size: 15px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.form-group input:focus {
+  border-color: #3a9087;
+  box-shadow: 0 0 5px rgba(58, 144, 135, 0.3);
+}
+
+.lifestyle {
+  margin-top: 40px;
+  padding-top: 25px;
+  border-top: 1px solid #ddd;
+}
+
+.question {
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.question label {
+  font-size: 15px;
+  color: #333;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.options label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #3a9087;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.options input[type="checkbox"] {
+  accent-color: #9cd9d7;
+  transform: scale(1.1);
+  margin: 0;
+}
+
+.text-input {
+  width: 100%;
+  padding: 8px 10px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.text-input:focus {
+  border-bottom: 1px solid #3a9087;
+}
+
+.submit-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.submit-btn button {
+  background-color: #3a9087;
+  color: white;
+  border: none;
+  padding: 12px 35px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submit-btn button:hover {
+  background-color: #2e7c74;
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px 40px;
+  }
+}
+
+.skincare {
+  margin-top: 40px;
+  padding-top: 25px;
+  border-top: 1px solid #ddd;
+}
+
+.skincare h3 {
+  text-align: center;
+  color: #3a9087;
+  font-weight: 600;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+}
+
+.triple-input {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.triple-input .form-group {
+  flex: 1;
+  min-width: 200px;
+}
+
+.question {
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
